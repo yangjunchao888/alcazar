@@ -24,7 +24,7 @@ func UnicodeHasPrefix(s, prefix []rune) bool {
 		return false
 	}
 
-	for i:=0; i<len(prefix); i++ {
+	for i := 0; i < len(prefix); i++ {
 		if s[i] != prefix[i] {
 			return false
 		}
